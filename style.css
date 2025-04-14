@@ -1,0 +1,13 @@
+
+body {
+  background-color: #f8f9fa;
+}
+.hero {
+  background: linear-gradient(135deg, #243f8b, #3d7de4, #8ecdfc);
+}
+h2 {
+  color: #243f8b;
+}
+a {
+  text-decoration: none;
+}
