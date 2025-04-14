@@ -1,13 +1,60 @@
+/* style.css */
 
+/* General Styles */
 body {
   background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
 }
-.hero {
-  background: linear-gradient(135deg, #243f8b, #3d7de4, #8ecdfc);
-}
-h2 {
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
   color: #243f8b;
 }
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #243f8b, #3d7de4, #8ecdfc);
+  padding: 100px 0;
+}
+
+/* Headings */
+h2 {
+  color: #243f8b;
+  margin-bottom: 20px;
+}
+
+/* Link styles */
 a {
   text-decoration: none;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #243f8b;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #3d7de4;
+}
+
+/* Section spacing */
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #e9ecef;
+}
+
+/* AOS animations overrides */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+[data-aos].aos-animate {
+  opacity: 1;
 }
